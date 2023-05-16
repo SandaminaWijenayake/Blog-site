@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Button,
-  Typography,
-  CardMedia,
-  CardContent,
-  CardActions,
-} from "@mui/material";
+import { Card, Typography, CardMedia, CardContent } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const BlogList = ({ details }) => {

@@ -7,13 +7,9 @@ import {
   Divider,
   List,
   AppBar,
-  ListItem,
-  ListItemButton,
-  ListItemText,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const navItems = ["Home", "About", "Contact"];
 // const button = {
 //   backgroundColor: "white",
 //   color: "black",

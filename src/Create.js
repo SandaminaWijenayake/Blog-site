@@ -11,7 +11,7 @@ import {
   Autocomplete,
   Button,
 } from "@mui/material";
-import axios from "axios";
+
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { storage } from "./config/firebase";
 

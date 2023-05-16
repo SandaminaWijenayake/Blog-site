@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { doc, getDoc, collection, deleteDoc } from "firebase/firestore";
+import { doc, getDoc, deleteDoc } from "firebase/firestore";
 import { db } from "./config/firebase";
-import { Button, CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Button, CardMedia, Grid, Typography } from "@mui/material";
 
 // const CollectionRef = collection(db, "posts");
 
